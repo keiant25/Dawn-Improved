@@ -9,9 +9,9 @@
 {% endcomment %}
 <cart-drawer>
    <modal-dialog id="PopupModal-cart-drawer" class="cart-popup-modal">
-    <div role="dialog" aria-label="{{ 'templates.cart.cart' | t }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
-      <button id="ModalClose-cart-drawer" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
-      <div class="product-popup-modal__content-info">
+    <div role="dialog" aria-label="{{ 'templates.cart.cart' | t }}" aria-modal="true" class="cart-popup-modal__content" tabindex="-1">
+      <button id="ModalClose-cart-drawer" type="button" class="cart-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+      <div class="cart-popup-modal__content-info">
         
         {% render 'drawer-cart' %}
         {% render 'drawer-cart-footer' %}
