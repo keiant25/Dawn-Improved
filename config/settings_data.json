@@ -178,20 +178,60 @@
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
+          },
+          "d8707e8d-4760-40de-b7e4-dd34c7e7d6ce": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
+          },
+          "0a02158e-97cb-45da-90cf-f80f67494db6": {
+            "type": "image",
+            "settings": {
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
+          "c3c52f99-fe9c-4f3f-af4a-e07d6c0ddf13": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "cf8dc6fe-346e-46d8-a738-cc40f6b49637": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "8de8d17a-b373-4376-bcdd-4486bc415436": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "d8707e8d-4760-40de-b7e4-dd34c7e7d6ce",
+          "0a02158e-97cb-45da-90cf-f80f67494db6",
+          "c3c52f99-fe9c-4f3f-af4a-e07d6c0ddf13",
+          "cf8dc6fe-346e-46d8-a738-cc40f6b49637",
+          "8de8d17a-b373-4376-bcdd-4486bc415436"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
-          "enable_country_selector": false,
-          "enable_language_selector": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 48,
           "padding_top": 36,
