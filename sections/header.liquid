@@ -553,6 +553,8 @@
       {%- endif -%}
 
       <modal-opener data-modal="#PopupModal-cart-drawer">
+        <button id="ProductPopup--cart-drawer" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">open popup</button>
+
         <a class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
           {%- liquid
             if cart == empty
